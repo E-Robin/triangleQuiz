@@ -1,0 +1,22 @@
+body{
+    padding:2rem;
+ background-color:rgb(197, 168, 88);
+text-align: center;
+
+}
+
+Button{
+    background-color:rgba(58, 59, 61, 0.733);
+    font-size:medium;
+    font-weight:normal;
+    cursor:pointer;
+    border-radius: 0.4rem;
+    border-color: #dde2ddfd;
+    margin-left:2rem;
+
+    
+   
+    
+}
+
+
