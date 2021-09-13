@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(19, 18, 17);
+     text-align: center;
+     margin:4rem;
+}
+
+
+ h1{
+     background-color: red;
+     display: inline;
+ }    
+
+h2{
+    background-color: rgb(53, 173, 53);
+    display:inline;
+}
+.container{
+    margin:1rem;
+}    
+
+.output{
+    background-color: royalblue;
+    display: inline;
+    
+}
+
+#btn{display: block;
+    margin:auto;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+    
+    
+}
+
+
