@@ -1,0 +1,44 @@
+body{ padding: 0;
+    margin: 0;
+      /* background-color: coral; */
+    
+  }
+  nav{
+    
+    text-align: right;   
+   }
+   a {
+       text-decoration: none;
+   }
+   
+     nav > a {
+       padding: 0 1.5rem;
+     }
+header{
+    background-color: rgb(110, 110, 238);
+    padding:1rem;
+}
+
+main{
+  
+  text-align: center;
+  
+}
+
+input{
+  
+  display: block;
+  margin: auto;
+  padding:0.6rem;
+  margin-bottom: 0.4rem;
+  outline: #fff;
+  border:2px solid rgb(57, 188, 206);
+  border-radius: 0.5rem;
+}
+button{
+  margin: 0.6rem;
+  background-color:darkcyan;
+  cursor: pointer;
+  padding:0.2rem  0.6rem;
+  border-radius: 0.3rem;
+}

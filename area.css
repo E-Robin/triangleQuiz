@@ -1,25 +1,57 @@
-body{
+:root{
+
+    --primary-color:#ff7f50;
+    --secondary-color:blue;
+}
+body{ padding: 0;
+    margin: 0;
+      background-color: rgba(255, 127, 80, 0.774);
+  }
+  nav{
+    
+    text-align: right;   
+   }
+   a {
+       text-decoration: none;
+   }
+   
+     nav > a {
+       padding: 0 1.5rem;
+     }
+header{
+    background-color: rgb(110, 110, 238);
+    padding:1rem;
+}
+
+
+/* body{
     background-color: rgb(19, 18, 17);
      text-align: center;
      margin:4rem;
+} */
+
+
+
+label{
+    display: block;
+    margin:0.5rem;
+    color:var(--secondary-color)
+}
+.head>h1{
+    color:var(--secondary-color);
+}
+input{
+    height:1.5rem
 }
 
+    
 
- h1{
-     background-color: red;
-     display: inline;
- }    
-
-h2{
-    background-color: rgb(53, 173, 53);
-    display:inline;
-}
 .container{
     margin:1rem;
 }    
 
 .output{
-    background-color: royalblue;
+    
     display: inline;
     
 }
@@ -28,9 +60,11 @@ h2{
     margin:auto;
     margin-bottom: 1rem;
     text-align: center;
-    
-    
-    
+
+}
+main{
+    margin: 3rem;
+    text-align: center;
 }
 
 
