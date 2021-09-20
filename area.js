@@ -2,16 +2,16 @@ var side=document.querySelectorAll(".side-input");
 var btn1=document.querySelector("#btn");
 var output1=document.querySelector(".output");
 
-function sumOfSides(a,b){
-    var sum=a+b;
-    return (sum);
+function multipleOfSides(a,b){
+    var multiple=(a*b);
+    return (multiple);
 }
 
 
 
 function calculateAreaOfTriangle(){
-    var sum=sumOfSides(Number(side[0].value),Number(side[1].value));
-    var result=sum/2;
+    var multiple=multipleOfSides(Number(side[0].value),Number(side[1].value));
+    var result=multiple/2;
     output1.innerText="The area of Triangle is " + result +" cm(Square)"
 }
 
