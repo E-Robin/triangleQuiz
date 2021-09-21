@@ -39,6 +39,19 @@ header{
   }
 
  
-  
+  @media screen and (max-width:600px) {
+    nav>a{
+        padding:0.2rem;
+        text-align: center;
+        margin: auto;
+    }
+    a.home{
+        display: block;
+        text-align: center;
+    }
+    nav{
+        text-align: center;
+    }
+  }
   
   
