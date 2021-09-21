@@ -84,4 +84,11 @@ main{
     
 }
 
+@media screen and (max-width:400px) {
+    nav>a{display:block;}
+    header >h1{
+        text-align: center;
+    }
+    
+}
 

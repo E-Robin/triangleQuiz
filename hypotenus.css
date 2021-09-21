@@ -49,6 +49,7 @@ Button{
       padding:0.2rem;
       text-align: center;
       margin: auto;
+      
   }
   a.home{
       display: block;
@@ -57,4 +58,12 @@ Button{
   nav{
       text-align: center;
   }
+}
+
+@media screen and (max-width:400px) {
+    nav>a{display:block;}
+    header >h1{
+        text-align: center;
+    }
+    
 }
